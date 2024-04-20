@@ -1,0 +1,35 @@
+.field {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-width: 100vw;
+
+  background-color: azure;
+}
+
+.line {
+  display: flex;
+
+  min-height: 100vh;
+  min-width: 100vw;
+
+  position: relative;
+}
+
+.line-dot {
+  width: 2px;
+  height: 2px;
+  background-color: black;
+  border-radius: 50%;
+
+  position: absolute;
+}
+
+.para-dot {
+  width: 2px;
+  height: 2px;
+  background-color: rgb(206, 4, 4);
+  border-radius: 50%;
+
+  position: absolute;
+}
