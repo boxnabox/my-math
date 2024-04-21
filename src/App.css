@@ -25,10 +25,19 @@
   position: absolute;
 }
 
-.para-dot {
+.tan-dot {
   width: 2px;
   height: 2px;
   background-color: rgb(206, 4, 4);
+  border-radius: 50%;
+
+  position: absolute;
+}
+
+.para-dot {
+  width: 2px;
+  height: 2px;
+  background-color: rgb(21, 207, 0);
   border-radius: 50%;
 
   position: absolute;
