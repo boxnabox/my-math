@@ -21,7 +21,11 @@ export default function Line(props) {
       lineDots[i].style.top = -(i * props.k) - 1 + "px";
     }
 
-    // TanDot.style.left 
+    console.log(props.k,props.superX,props.k * props.superX);
+
+    TanDot.style.left = props.superX - 1 + "px";
+    TanDot.style.top = (props.superX * -props.k) - 1 + "px";
+    TanDot.style.zIndex = 1;
   }, []);
 
   return <div className="line">{result}</div>;
